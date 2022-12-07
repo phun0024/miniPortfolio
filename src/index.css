@@ -1,0 +1,25 @@
+/* font-family: 'Gaegu', cursive; */
+
+.container {
+  font-family: 'Cabin Sketch', cursive;
+}
+
+.projectList {
+  gap: 30px;
+  margin: 20%;
+}
+
+.projectList .btn {
+  font-size: 56px;
+  color: #434343;
+  font-family: 'Cabin Sketch', cursive;
+}
+
+.countdown {
+  text-align: center;
+  margin: 18% 15%;
+}
+
+.countdown h3 {
+  font-size: 48px;
+}
