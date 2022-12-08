@@ -4,13 +4,13 @@ import App from './App'
 import "bootstrap/dist/css/bootstrap.min.css"
 import './index.css'
 
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createHashRouter, RouterProvider } from 'react-router-dom'
 import Modal from './routes/Modal'
 import ImageSlider from './routes/ImageSlider'
 import Countdown from './routes/Countdown'
 import Projects from './routes/Projects'
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: '/',
     element: <App />,
